@@ -18,7 +18,7 @@ class Line{
   void display(){
     stroke(colour);
     strokeWeight(3);
-    fill(0);
+    fill(colour);
     textSize(20);
     textAlign(LEFT);
     if ((points[p1].xLoc==points[p2].xLoc)&&(points[p1].yLoc==points[p2].yLoc)){

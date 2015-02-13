@@ -26,7 +26,7 @@ void setup(){
   points[3]=new Point(3,2);
     
   lines = new Line[2];
-  lines[0]= new Line(0,0,1,color(255,0,0));
+  lines[0]= new Line(0,0,1,color(0,180,0));
   lines[1]= new Line(1,2,3,color(0,0,255));
   // lines[0].p2=1
   // lines[1].p1=2
